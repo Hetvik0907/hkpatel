@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Dancing+Script:wght@700&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>PortFolio</h1>
+            </div>
+            <ul>
+                <li><a href="" class="animate-word">Home</a></li>
+                <li><a href="#about" class="animate-word">About</a></li>
+                <li><a href="#service" class="animate-word">Service</a></li>
+                <li><a href="#work" class="animate-word">Work</a></li>
+                <li><a href="#contact" class="animate-word">Contact</a></li>
+            </ul>
+            <i id="bar" class="fa-solid fa-bars"></i>
+        </nav>
+
+        <div class="main"> 
+            <div class="mainText">
+                <h3>Hello  I am</h3>
+                <h1>Hetvik Patel</h1>
+                <p>Hey Everyone, I am FullStack Developer and I have skills <br>Like HTML CSS and javaScript ReactJS <br> and MEARN Material UI</p>
+               <a href="file:///C:/Users/hetvi/AppData/Local/Microsoft/Windows/INetCache/IE/E010JRCV/hetvikresume[1].pdf"> <button onclick="downlodeBtn()">Downlode CV</button> </a>
+            </div>
+            <img src="_F4A0796.JPG" alt="Round Image" class="round-frame">
+        </div>
+
+        <div id="about">
+            <div class="head" style="padding-bottom: 10px;">
+                <h1 >About Us</h1>
+            </div>
+            <div class="about">
+                <div class="aboutText">
+                     <h2>Hetvik Patel</h2>
+                     
+                     <p><b>Hey, I am FullStack Developer</b><br>
+                        <br>
+                        "Passionate Full Stack Developer skilled in creating dynamic, responsive, <br>
+                         and scalable web solutions from concept to deployment." </p>
+                </div>
+                <img src="_F4A1348.JPG" alt="" style="margin-bottom: 30px;" style="height: 80%;">
+            </div>
+        </div>
+
+        <div id="service" style="margin-bottom: 70px;">
+            <div class="head">
+                <h1>Service</h1>
+            </div>
+            <div class="btns">
+                <button class="category" id="all">All</button>
+                <button class="category" id="ui" style="display: none;">UI/UX Design</button>
+                <button class="category" id="web">Web Development</button>
+                <button class="category" id="android">Android Development</button>
+            </div>
+            <div class="service">
+               
+                <div class="serviceCard" id="uiDesign" style="display: none; ">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, explicabo molestias!</p>
+                    <button>contact</button>
+                </div>
+                <div class="serviceCard" id="webDesign" style="margin-bottom: 20px;">
+                    <i class="fa-solid fa-laptop"></i>
+                    <h2>Web Application</h2>
+                    <p>"A web application is an interactive software program accessible through a web browser, enabling dynamic user engagement and seamless functionality across devices."</p>
+                    <form action="">
+                    <button>apoint</button>
+                </form>
+                </div>
+                <div class="serviceCard" id="androidDesign" style="margin-bottom: 20px;">
+                    <i class="fa-solid fa-mobile"></i>
+                    <h2>Mobile Application</h2>
+                    <p>Application development is the process of designing, creating, and maintaining software applications to meet specific user needs or business goals.</p>
+                    <form action="">
+                        <button>apoint</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div id="work">
+            <div class="head" style="padding: 3px;">
+                <h1>My Work</h1>
+            </div>
+            <div class="work">
+                <div class="workCard">
+                    <h2>Safe Zone</h2>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO5_4Eacj75c3pH5HnvPlqsIHBQfGKSf1JJ6gy4IDbBDZwyEFettNfIVnp49Wq6KYDIII&usqp=CAU" alt="">
+                    
+                    <p>Developed a real-time disaster information aggregation platform that consolidates data from trusted sources like social media, government 
+                        agencies, and user reports. The software provides users with timely alerts, an interactive map of affected areas, and access to shelters and 
+                        evacuation routes. Utilized APIs (Twitter, OpenWeatherMap, FEMA) to gather data and implemented a user-friendly interface for easy 
+                        access to crucial disaster information. The project aims to improve disaster response, reduce misinformation, and assist both individuals and 
+                        organizations in managing emergencies more effectively. </p>
+                </div>
+                <div class="workCard">
+                    <h2>GoHelp</h2>
+                    <img src="https://media.gettyimages.com/id/1417833187/photo/professional-cleaner-vacuuming-a-carpet.jpg?s=612x612&w=0&k=20&c=5h8NBR190d46Ni4MclqJ7Zf9ZOtf3TM3gPRJaHUdMjk=" alt="">
+                   
+                    <p>GoHelp is a comprehensive home services platform built using modern web and mobile technologies such as React.js for dynamic frontend 
+                        development, Node.js with Express.js for server-side logic, and MongoDB for efficient data management. It integrates payment gateways 
+                        like Stripe for secure transactions, and Google Maps API for location-based service delivery. The platform also incorporates real-time 
+                        communication features using Socket.io or Firebase for updates and booking notifications. With a mobile app developed using React Native 
+                        or Flutter, GoHelp offers users a seamless experience for booking services like cleaning, babysitting, handyman repairs, scrap collection, 
+                        and water tank cleaning.</p>
+                </div>
+                <div class="workCard">
+                    <h2>GeoTrack</h2>
+                    <img src="https://cdn.prod.website-files.com/6209ea9aee1f965d7fce7c19/649ab5c2c2e8e27bc3a9bdc8_employee-attendance-with-clappia.webp" alt="">
+                    
+                    <p>Developed GeoTrack, a geolocation-based attendance tracking system utilizing geofencing technology to automate attendance management. 
+                        The platform ensures accurate check-ins by monitoring user locations within predefined geographic boundaries, offering a seamless user 
+                        experience through both a responsive web application and a mobile app via WebView.  </p>
+                    
+                </div>
+            </div>
+
+            <div id="contact">
+                <div class="head">
+                    <h1>Contact Us</h1>
+                </div>
+                <div class="contact">
+                    <input type="text" placeholder="Enter Your Name" id="name">
+                    <input type="Email" placeholder="Enter Your Email" id="email">
+                    <textarea  rows="6" cols="35" placeholder="Your Message..."  id="msg"></textarea>
+                    <button id="submit">Submit</button>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="icons">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div class="text">
+                    <p>Privacy Policy</p>
+                    <p>Term & Condition</p>
+                    <p>Disclaimer</p>
+                </div>
+                 
+            </div>
+        </div>
+     </div>
+     
+    <script src="index.js"></script>
+</body>
+</html>
