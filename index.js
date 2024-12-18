@@ -35,7 +35,8 @@ btns.forEach(function(btn){
     })
 })
 function downlodeBtn(){
-    alert("CV Downloded")
+    alert("CV Downloded");
+    window.location.href = 'file:///C:/Users/hetvi/OneDrive/Desktop/hetvikresume.pdf'; 
 }
 
 submit.addEventListener("click", function(){
